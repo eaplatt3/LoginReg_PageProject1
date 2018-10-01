@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Earl Platt III
+//BCS421 - Android
+//9/30/2018
+//App That is A Login & Registration Page
+/////////////////////////////////
+//Input: User Enters
+//       -Username & Password
+//       -First Name, Last Name,
+//        Date of Birth, Email,
+//Output: Allows User to Register & Login -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tatto_model3"
+    tools:context=".SplashScreen">
+
+    <!--Layout to Display Text-->
+    <TextView
+        android:id="@+id/text_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:fontFamily="@font/cloister_black"
+        android:text="@string/title"
+        android:textColor="@color/splash_screen_link"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_view_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:fontFamily="@font/cloister_black"
+        android:text="@string/title2"
+        android:textColor="@color/splash_screen_link"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/text_view_main" />
+
+</android.support.constraint.ConstraintLayout>

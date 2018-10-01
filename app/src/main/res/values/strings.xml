@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Biohazard Ink</string>
+    <string name="title">Biohazard </string>
+    <string name="edit_text1">Enter Username</string>
+    <string name="edit_text2">Enter Password</string>
+    <string name="btn_name">Login</string>
+    <string name="title2">Ink</string>
+    <string name="link"><u>Register</u></string>
+    <string name="first_name_edit">Enter First Name</string>
+    <string name="last_name_edit">Enter Last Name</string>
+    <string name="reg_title">Biohazard Ink </string>
+    <string name="reg_title2">Registration</string>
+    <string name="btn_name2">Submit</string>
+    <string name="dob_edit">Enter Birthday ("0101190")</string>
+    <string name="email_edit">Enter Email</string>
+    <string name="password_edit">Enter Password</string>
+</resources>
